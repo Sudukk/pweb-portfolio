@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("/fonts/Estrella-Early.woff2") format("woff2");
+  src: url("../fonts/Estrella-Early.woff2") format("woff2");
 }
 
 @font-face {
@@ -13,8 +13,8 @@
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf")
-    format("ttf");
+  src: url("../fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf")
+    format("truetype");
 }
 
 @theme {
