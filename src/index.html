@@ -7,71 +7,90 @@
   </head>
   <body class="font-secondary tracking-tight">
     <nav
-      class="h-auto p-2 my-2 mx-8 bg-transparent shadow-sm backdrop-blur-xs flex flex-row justify-center items-center fixed z-10 rounded-xl top-0 left-0 right-0 border-neutral-400 border-1"
+      class="h-auto z-999 p-2 my-2 mx-8 bg-transparent shadow-sm backdrop-blur-xs flex flex-row justify-center items-center fixed z-10 rounded-xl top-0 left-0 right-0 border-neutral-400 border-1"
     >
       <div class="flex flex-row gap-x-10 text-xs font-light">
-        <a href="" class="hover:font-medium hover:scale-[1.1] transition-all"
+        <a href="#" class="hover:font-medium hover:scale-[1.1] transition-all"
           >Home</a
         >
-        <a href="" class="hover:font-medium hover:scale-[1.1] transition-all"
+        <a
+          href="#about-me"
+          class="hover:font-medium hover:scale-[1.1] transition-all"
           >About Me</a
         >
-        <a href="" class="hover:font-medium hover:scale-[1.1] transition-all"
+        <a
+          href="#projects"
+          class="hover:font-medium hover:scale-[1.1] transition-all"
           >Projects</a
         >
       </div>
     </nav>
     <main class="px-8">
       <!-- hero -->
-      <div class="w-full flex flex-col min-h-screen">
-        <div class="mt-auto h-auto mb-4 font-light">
-          <h3 class="text-xs">Motion Graphic Designer | Frontend Developer</h3>
-          <h1 class="text-2xl font-primary text-[256px]">
+      <div class="relative w-full flex flex-col min-h-screen bg-white">
+        <img
+          src="/images/dika.png"
+          alt="Wikandika Setya Nugroho"
+          class="absolute inset-0 w-full h-full object-cover object-top -translate-y-[50px] lg:-translate-y-[100px] z-0"
+        />
+
+        <div
+          class="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-white via-white/90 to-transparent z-10"
+        ></div>
+
+        <div
+          class="relative z-20 mt-auto h-auto mb-6 md:mb-8 font-light text-black"
+        >
+          <h3 class="text-xs md:text-sm">
+            Motion Graphic Designer | Frontend Developer
+          </h3>
+
+          <h1
+            class="text-5xl md:text-7xl lg:text-[156px] font-primary leading-tight lg:leading-none mt-2"
+          >
             Wikandika Setya Nugroho
           </h1>
-          <div class="flex flex-row justify-between mt-10">
-            <div class="flex flex-col w-1/3">
-              <p class="text-xs text-wrap">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                obcaecati, vel illo dignissimos ducimus vitae distinctio eos,
-                sit alias quia quidem cupiditate dolore! Culpa exercitationem
-                illum repellendus quam itaque ad!
+
+          <div
+            class="flex flex-col md:flex-row justify-between mt-8 md:mt-10 gap-6 md:gap-0"
+          >
+            <div class="flex flex-col w-full md:w-5/12 lg:w-1/3">
+              <p class="text-xs md:text-sm text-wrap">
+                Currently living at Surabaya, Indonesia
               </p>
             </div>
-            <div class="flex flex-col w-1/3">
-              <p class="text-xs text-wrap text-end">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                obcaecati, vel illo dignissimos ducimus vitae distinctio eos,
-                sit alias quia quidem cupiditate dolore! Culpa exercitationem
-                illum repellendus quam itaque ad!
+
+            <div class="flex flex-col w-full md:w-5/12 lg:w-1/3">
+              <p class="text-xs md:text-sm text-wrap md:text-end">
+                Open to all oportunities!
               </p>
             </div>
           </div>
         </div>
       </div>
       <div class="w-full h-[0.01em] rounded-xl bg-black/20 my-8"></div>
-      <div class="w-full flex flex-col min-h-screen">
+      <div id="about-me" class="about-me w-full flex flex-col min-h-screen">
         <h3 class="text-xs font-light">My Story</h3>
-        <h2 class="text-2xl font-primary text-8xl">About Me</h2>
-        <div class="w-full grid grid-cols-6 justify-between mt-8 gap-x-20">
-          <div class="font-light col-span-3 border-r-[0.01rem] border-black/10">
-            <p class="text-xs mr-10">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Laudantium saepe explicabo, sapiente vero dicta quasi amet quos
-              ducimus itaque obcaecati inventore quibusdam, architecto quisquam
-              aut. Magni vitae maiores hic excepturi ut in nemo at sunt impedit,
-              vero iure ipsa recusandae fugit error. Voluptatem autem blanditiis
-              laboriosam dolorum doloremque rerum odit suscipit provident quo
-              eius! Illo nisi expedita veniam, saepe at temporibus, officiis non
-              nam dolores tenetur aut dicta atque dignissimos blanditiis a
-              excepturi eius cupiditate ea, vero sapiente suscipit. Suscipit
-              maxime ullam expedita. Fugit itaque tempore nisi soluta eos eum,
-              magni neque inventore, ducimus quibusdam quod aliquam pariatur
-              dicta officia.
+        <h2 class="text-6xl font-primary lg:text-8xl">About Me</h2>
+        <div
+          class="w-full flex flex-col lg:grid lg:grid-cols-6 justify-between mt-2 lg:mt-8 gap-x-20"
+        >
+          <div
+            class="font-light lg:col-span-3 lg:border-r-[0.01rem] lg:border-black/10"
+          >
+            <p class="text-xs lg:mr-10">
+              Information Systems college student at Institut Teknologi Sepuluh
+              Nopember. Demonstrates adeptness in Creativity, Problem Solving
+              and Social Skills, honed through active participation in events
+              and competitions. Eager to leverage these skills to contribute
+              effectively to projects, collaborate with peers, and pursue future
+              academic and career endeavours.
             </p>
             <div class="w-full h-[0.01rem] bg-black/20 my-10"></div>
 
-            <div class="flex flex-row justify-between">
+            <div
+              class="flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 justify-between"
+            >
               <div class="gap-y-2">
                 <h4 class="font-medium text-lg">Skills</h4>
                 <ol class="text-xs mt-2">
@@ -106,7 +125,7 @@
                     <li>ROS2</li>
                   </ol>
 
-                  <ol class="text-xs mr-10">
+                  <ol class="text-xs lg:mr-10">
                     <li>Adobe After Effect</li>
                     <li>Adobe Premiere Pro</li>
                     <li>Adobe Photoshop</li>
@@ -208,151 +227,181 @@
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col min-h-screen">
-        <h3 class="text-xs font-light">My Personal and Client Projects</h3>
-        <h2 class="text-2xl font-primary text-8xl">My Projects</h2>
-        <div class="flex flex-col">
-          <div class="w-full flex flex-row mt-10 gap-x-4">
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+      <div
+        id="projects"
+        class="w-full flex flex-col min-h-screen mt-5 lg:mt-0 px-4 md:px-8 box-border"
+      >
+        <h3 class="text-xs font-light text-gray-600">
+          My Personal and Client Projects
+        </h3>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+        <h2 class="font-primary text-5xl md:text-7xl lg:text-8xl mt-2 mb-6">
+          My Projects
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/project01.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">White Ruins</p>
+              <p class="text-xs font-light text-gray-500">18 July 2025</p>
             </div>
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
-
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+          </div>
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/project03.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">
+                Abandoned Warehouse
+              </p>
+              <p class="text-xs font-light text-gray-500">13 July 2025</p>
             </div>
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+          </div>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/project02.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">
+                Post-Apocalyptic Lonliness
+              </p>
+              <p class="text-xs font-light text-gray-500">11 July 2025</p>
             </div>
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+          </div>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/project04.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">Overgrown</p>
+              <p class="text-xs font-light text-gray-500">8 July 2025</p>
             </div>
           </div>
         </div>
 
-        <h2 class="text-2xl font-primary text-8xl mt-10">Client Projects</h2>
-        <div class="flex flex-col">
-          <div class="w-full flex flex-row mt-10 gap-x-4">
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+        <h2 class="font-primary text-5xl md:text-7xl lg:text-8xl mt-16 mb-6">
+          Client Projects
+        </h2>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/cproject02.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">
+                Rankavtuber Teaser Video
+              </p>
+              <p class="text-xs font-light text-gray-500">08 February 2026</p>
             </div>
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+          </div>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/cproject01.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">
+                Kael333 Teaser Video
+              </p>
+              <p class="text-xs font-light text-gray-500">21 October 2025</p>
             </div>
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+          </div>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/cproject03.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">
+                Lunajx Teaser Video
+              </p>
+              <p class="text-xs font-light text-gray-500">18 September 2025</p>
             </div>
-            <div
-              class="w-[500px] h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
-            >
-              <img
-                src="/images/placeholder.jpg"
-                alt="placeholder"
-                class="w-full flex-1 object-cover min-h-0"
-              />
+          </div>
 
-              <div class="w-full p-4 flex flex-col bg-white">
-                <p class="text-lg font-medium text-gray-900">Project 01</p>
-                <p class="text-xs font-light text-gray-500">2025</p>
-              </div>
+          <div
+            class="w-full h-[400px] lg:h-[500px] flex flex-col rounded-lg border border-gray-200 bg-white overflow-hidden shadow-sm hover:scale-[1.01] hover:cursor-pointer transition-all"
+          >
+            <img
+              src="/images/cproject04.png"
+              alt="placeholder"
+              class="w-full flex-1 object-cover min-h-0"
+            />
+            <div class="w-full p-4 flex flex-col bg-white">
+              <p class="text-lg font-medium text-gray-900">
+                Gabrielcherry Teaser Video
+              </p>
+              <p class="text-xs font-light text-gray-500">07 August 2025</p>
             </div>
           </div>
         </div>
       </div>
     </main>
     <footer class="w-full mt-32 border-t-[0.01rem] border-black/10">
-      <div class="grid grid-cols-5 py-[100px]">
-        <div class="col-span-3 p-10">
-          <h1 class="text-2xl font-primary">WSN</h1>
+      <div class="flex flex-col lg:grid lg:grid-cols-5 py-[100px]">
+        <div class="lg:col-span-3 p-10">
+          <h1 class="text-2xl font-primary text-center lg:text-left">WSN</h1>
         </div>
         <div class="col-span-2 grid grid-cols-2">
           <div class="w-full flex flex-col p-5">
             <h6 class="text-sm font-medium">Socials</h6>
-            <ul class="mt-2 text-xs font-light">
-              <li>Instagram</li>
-              <li>Twitter (X)</li>
-              <li>Youtube</li>
-              <li>LinkedIn</li>
+            <ul class="mt-2 text-xs font-light text-gray-500">
+              <li>
+                <a href="https://www.instagram.com/dika.kurus/">Instagram</a>
+              </li>
+              <li><a href="https://x.com/">Twitter (X)</a></li>
+              <li>
+                <a href="https://www.youtube.com/@wikandikasetyanugroho5084"
+                  >Youtube</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/wikandika-setya-nugroho-1753721a4/"
+                  >LinkedIn</a
+                >
+              </li>
             </ul>
           </div>
           <div class="w-full flex flex-col p-5">
             <h6 class="text-sm font-medium">Get in touch</h6>
-            <p class="text-xs font-light">wikandika123@gmail.com</p>
+            <p class="text-xs font-light text-gray-500">
+              <a href="mailto:wikandika123@gmail.com">wikandika123@gmail.com</a>
+            </p>
           </div>
         </div>
       </div>
