@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Estrella;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/Estrella-Early.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JakartaSans;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf")
+    format("ttf");
+}
+
+@theme {
+  --font-primary: "Estrella", serif;
+  --font-secondary: "JakartaSans", sans-serif;
+}
